@@ -1,0 +1,557 @@
+{
+  "Header": {
+    "WolvenKitVersion": "8.8.1",
+    "WKitJsonVersion": "0.0.3",
+    "GameVersion": 1610,
+    "ExportedDateTime": "2023-03-12T03:54:45.8665596Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "\\\\wsl.localhost\\Ubuntu\\home\\andrew\\Sync\\Source\\cyberpunk2077\\AndASM-SkipStart\\source\\archive\\base\\gameplay\\gui\\ui_game.inklayers"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
+      "$type": "inkLayersResource",
+      "cookingPlatform": "PLATFORM_PC",
+      "layerDefinitions": {
+        "$type": "inkLayerDefinitionCollection",
+        "debugLayer": {
+          "$type": "inkDebugLayerDefinition",
+          "activeByDefault": 0,
+          "enabled": 1,
+          "entries": [
+            {
+              "$type": "inkDebugLayerEntry",
+              "anchorPlace": "Fill",
+              "anchorPoint": {
+                "$type": "Vector2",
+                "X": 0,
+                "Y": 0
+              },
+              "widgetResource": {
+                "DepotPath": "base\\gameplay\\gui\\widgets\\root\\interactions_root.inkwidget",
+                "Flags": "Soft"
+              }
+            },
+            {
+              "$type": "inkDebugLayerEntry",
+              "anchorPlace": "BottomFillHorizontaly",
+              "anchorPoint": {
+                "$type": "Vector2",
+                "X": 0.5,
+                "Y": 0.5
+              },
+              "widgetResource": {
+                "DepotPath": "base\\gameplay\\gui\\widgets\\subtitles\\subtitles.inkwidget",
+                "Flags": "Soft"
+              }
+            }
+          ],
+          "inputContext": 0,
+          "isAffectedByFadeout": 1,
+          "isPermanent": 0,
+          "rootLibrary": {
+            "DepotPath": "base\\gameplay\\gui\\widgets\\root\\debug_root.inkwidget",
+            "Flags": "Default"
+          },
+          "useGameInput": 1,
+          "useGlobalStyleTheme": 0
+        },
+        "gameNotificationsLayer": {
+          "$type": "inkGameNotificationsLayerDefinition",
+          "activeByDefault": 1,
+          "cursorResource": {
+            "DepotPath": "base\\gameplay\\gui\\widgets\\cursors\\default_cursor.inkwidget",
+            "Flags": "Default"
+          },
+          "enabled": 1,
+          "inputContext": "UINotifications",
+          "isAffectedByFadeout": 1,
+          "isPermanent": 0,
+          "rootLibrary": {
+            "DepotPath": "base\\gameplay\\gui\\fullscreen\\game_notifications\\game_notifications.inkwidget",
+            "Flags": "Default"
+          },
+          "useGameInput": 1,
+          "useGlobalStyleTheme": 1
+        },
+        "hudLayer": {
+          "$type": "inkHUDLayerDefinition",
+          "activeByDefault": 1,
+          "enabled": 1,
+          "entriesResource": {
+            "DepotPath": "base\\gameplay\\gui\\prototype_hud.inkhud",
+            "Flags": "Default"
+          },
+          "inputContext": 0,
+          "isAffectedByFadeout": 1,
+          "isPermanent": 0,
+          "rootLibrary": {
+            "DepotPath": "base\\gameplay\\gui\\widgets\\root\\root.inkwidget",
+            "Flags": "Default"
+          },
+          "useGameInput": 0,
+          "useGlobalStyleTheme": 1
+        },
+        "menuLayer": {
+          "$type": "inkMenuLayerDefinition",
+          "activeByDefault": 1,
+          "cursorResource": {
+            "DepotPath": "base\\gameplay\\gui\\widgets\\cursors\\default_cursor.inkwidget",
+            "Flags": "Default"
+          },
+          "enabled": 1,
+          "inputContext": "UIMenu",
+          "isAffectedByFadeout": 1,
+          "isPermanent": 0,
+          "menuResource": {
+            "DepotPath": "base\\gameplay\\gui\\fullscreen\\menu.inkmenu",
+            "Flags": "Default"
+          },
+          "rootLibrary": {
+            "DepotPath": "base\\gameplay\\gui\\fullscreen\\menu.inkwidget",
+            "Flags": "Default"
+          },
+          "useGameInput": 1,
+          "useGlobalStyleTheme": 1
+        },
+        "menuLayerMP": {
+          "$type": "inkMenuLayerDefinition",
+          "activeByDefault": 1,
+          "cursorResource": {
+            "DepotPath": "base\\gameplay\\gui\\widgets\\cursors\\default_cursor.inkwidget",
+            "Flags": "Default"
+          },
+          "enabled": 1,
+          "inputContext": "UIMenu",
+          "isAffectedByFadeout": 1,
+          "isPermanent": 0,
+          "menuResource": {
+            "DepotPath": "base\\gameplay\\gui\\fullscreen\\menu.inkmenu",
+            "Flags": "Default"
+          },
+          "rootLibrary": {
+            "DepotPath": "base\\gameplay\\gui\\fullscreen\\menu.inkwidget",
+            "Flags": "Default"
+          },
+          "useGameInput": 1,
+          "useGlobalStyleTheme": 1
+        },
+        "offscreenLayer": {
+          "$type": "inkOffscreenLayerDefinition",
+          "activeByDefault": 1,
+          "enabled": 1,
+          "inputContext": 0,
+          "isAffectedByFadeout": 0,
+          "isPermanent": 0,
+          "rootLibrary": {
+            "DepotPath": "base\\gameplay\\gui\\widgets\\offscreens\\offscreenwidgetscontainer.inkwidget",
+            "Flags": "Default"
+          },
+          "useGameInput": 0,
+          "useGlobalStyleTheme": 0
+        },
+        "photoModeLayer": {
+          "$type": "inkPhotoModeLayerDefinition",
+          "activeByDefault": 0,
+          "cursorResource": {
+            "DepotPath": "base\\gameplay\\gui\\widgets\\cursors\\default_cursor.inkwidget",
+            "Flags": "Default"
+          },
+          "enabled": 1,
+          "inputContext": "PhotoModeUI",
+          "isAffectedByFadeout": 1,
+          "isPermanent": 0,
+          "photoModeResource": {
+            "DepotPath": "base\\gameplay\\gui\\fullscreen\\photo_mode\\photo_mode_camera_options.inkwidget",
+            "Flags": "Default"
+          },
+          "rootLibrary": {
+            "DepotPath": "base\\gameplay\\gui\\fullscreen\\photo_mode\\photo_mode_root.inkwidget",
+            "Flags": "Default"
+          },
+          "stickersResource": {
+            "DepotPath": "base\\gameplay\\gui\\fullscreen\\photo_mode\\photo_mode_stickers.inkwidget",
+            "Flags": "Default"
+          },
+          "useGameInput": 1,
+          "useGlobalStyleTheme": 1
+        },
+        "videoLayer": {
+          "$type": "inkVideoLayerDefinition",
+          "activeByDefault": 1,
+          "enabled": 1,
+          "inputContext": 0,
+          "isAffectedByFadeout": 0,
+          "isPermanent": 0,
+          "rootLibrary": {
+            "DepotPath": "base\\gameplay\\gui\\widgets\\video\\viewport_video.inkwidget",
+            "Flags": "Default"
+          },
+          "useGameInput": 0,
+          "useGlobalStyleTheme": 0
+        }
+      },
+      "layerDefinitionsSet": {
+        "$type": "inkLayerDefinitionsSet",
+        "layersDefinitions": [
+          {
+            "$type": "inkLayerDefinition_NEW",
+            "drawingPolicy": "InOrder",
+            "enabled": 1,
+            "inputContext": 0,
+            "isAffectedByFadeout": 0,
+            "isPermanent": 0,
+            "layerType": "Debug",
+            "loadPriority": "Normal",
+            "name": "Debug",
+            "useGameInput": 0,
+            "useGlobalStyleTheme": 0
+          },
+          {
+            "$type": "inkLayerDefinition_NEW",
+            "drawingPolicy": "InOrder",
+            "enabled": 1,
+            "inputContext": 0,
+            "isAffectedByFadeout": 0,
+            "isPermanent": 0,
+            "layerType": "HUD",
+            "loadPriority": "High",
+            "name": "Hud",
+            "useGameInput": 0,
+            "useGlobalStyleTheme": 0
+          }
+        ],
+        "layersSystemConnections": [
+          {
+            "$type": "inkLayerSystemConnection",
+            "layerName": "Debug",
+            "system": {
+              "HandleId": "0",
+              "Data": {
+                "$type": "inkDebugSystemData",
+                "entries": [
+                  {
+                    "$type": "inkDebugLayerEntry",
+                    "anchorPlace": "Fill",
+                    "anchorPoint": {
+                      "$type": "Vector2",
+                      "X": 0,
+                      "Y": 0
+                    },
+                    "widgetResource": {
+                      "DepotPath": "base\\gameplay\\gui\\widgets\\root\\interactions_root.inkwidget",
+                      "Flags": "Soft"
+                    }
+                  },
+                  {
+                    "$type": "inkDebugLayerEntry",
+                    "anchorPlace": "BottomFillHorizontaly",
+                    "anchorPoint": {
+                      "$type": "Vector2",
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "widgetResource": {
+                      "DepotPath": "base\\gameplay\\gui\\widgets\\subtitles\\subtitles.inkwidget",
+                      "Flags": "Soft"
+                    }
+                  }
+                ],
+                "rootLibrary": {
+                  "DepotPath": "base\\gameplay\\gui\\widgets\\root\\root.inkwidget",
+                  "Flags": "Default"
+                }
+              }
+            }
+          },
+          {
+            "$type": "inkLayerSystemConnection",
+            "layerName": "Hud",
+            "system": {
+              "HandleId": "1",
+              "Data": {
+                "$type": "inkHudSystemData",
+                "entriesResource": {
+                  "DepotPath": "base\\gameplay\\gui\\prototype_hud.inkhud",
+                  "Flags": "Default"
+                },
+                "rootLibrary": {
+                  "DepotPath": "base\\gameplay\\gui\\widgets\\root\\root.inkwidget",
+                  "Flags": "Default"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "permanentLayerDefinitions": {
+        "$type": "inkPermanentLayerDefinitionCollection",
+        "loadingLayer": {
+          "$type": "inkLoadingLayerDefinition",
+          "activeByDefault": 1,
+          "enabled": 1,
+          "fallbackLoadingScreenResource": {
+            "DepotPath": "base\\gameplay\\gui\\fullscreen\\loading_screens\\default_loading\\default_loading.inkwidget",
+            "Flags": "Soft"
+          },
+          "fastTravelLoadingScreenResource": {
+            "DepotPath": "base\\gameplay\\gui\\fullscreen\\loading\\loading_screen.inkwidget",
+            "Flags": "Soft"
+          },
+          "initialLoadingScreenResource": {
+            "DepotPath": "base\\gameplay\\gui\\fullscreen\\initial_loading\\initial_loading_screen.inkwidget",
+            "Flags": "Soft"
+          },
+          "inputContext": "UILoadingScreen",
+          "isAffectedByFadeout": 0,
+          "isPermanent": 1,
+          "rootLibrary": {
+            "DepotPath": "base\\gameplay\\gui\\fullscreen\\loading\\loading_base.inkwidget",
+            "Flags": "Default"
+          },
+          "splashLoadingScreenResource": {
+            "DepotPath": "base\\gameplay\\gui\\fullscreen\\loading_screens\\default_loading\\default_loading.inkwidget",
+            "Flags": "Soft"
+          },
+          "useGameInput": 0,
+          "useGlobalStyleTheme": 1
+        },
+        "sysNotificationsLayer": {
+          "$type": "inkSystemNotificationsLayerDefinition",
+          "activeByDefault": 1,
+          "cursorResource": {
+            "DepotPath": "base\\gameplay\\gui\\widgets\\cursors\\default_cursor.inkwidget",
+            "Flags": "Default"
+          },
+          "enabled": 1,
+          "inputContext": "UINotifications",
+          "isAffectedByFadeout": 0,
+          "isPermanent": 1,
+          "rootLibrary": {
+            "DepotPath": "base\\gameplay\\gui\\fullscreen\\system_notifications\\system_notifications.inkwidget",
+            "Flags": "Default"
+          },
+          "useGameInput": 0,
+          "useGlobalStyleTheme": 1
+        },
+        "waitingSignLayerDefinition": {
+          "$type": "inkWaitingSignLayerDefinition",
+          "activeByDefault": 0,
+          "delayTime": 1,
+          "enabled": 1,
+          "inputContext": "RELEASE_ALL",
+          "introAnimName": "intro_side",
+          "introTime": 2,
+          "isAffectedByFadeout": 0,
+          "isPermanent": 1,
+          "outroAnimName": "outro_side",
+          "outroTime": 2,
+          "postWaitTime": 3,
+          "rootLibrary": {
+            "DepotPath": "base\\gameplay\\gui\\common\\preloader\\preloader2.inkwidget",
+            "Flags": "Default"
+          },
+          "useGameInput": 1,
+          "useGlobalStyleTheme": 1,
+          "waitingAnimName": "loop_side",
+          "waitingTime": 20
+        },
+        "watermarksLayer": {
+          "$type": "inkWatermarksLayerDefinition",
+          "activeByDefault": 1,
+          "enabled": 1,
+          "inputContext": 0,
+          "isAffectedByFadeout": 0,
+          "isPermanent": 1,
+          "rootLibrary": {
+            "DepotPath": "engine\\ink\\widgets\\watermarks.inkwidget",
+            "Flags": "Default"
+          },
+          "useGameInput": 0,
+          "useGlobalStyleTheme": 0
+        }
+      },
+      "preGameLayerDefinitions": {
+        "$type": "inkLayerDefinitionCollection",
+        "debugLayer": {
+          "$type": "inkDebugLayerDefinition",
+          "activeByDefault": 0,
+          "enabled": 1,
+          "entries": [
+            {
+              "$type": "inkDebugLayerEntry",
+              "anchorPlace": "Fill",
+              "anchorPoint": {
+                "$type": "Vector2",
+                "X": 0,
+                "Y": 0
+              },
+              "widgetResource": {
+                "DepotPath": "base\\gameplay\\gui\\widgets\\root\\interactions_root.inkwidget",
+                "Flags": "Soft"
+              }
+            },
+            {
+              "$type": "inkDebugLayerEntry",
+              "anchorPlace": "BottomFillHorizontaly",
+              "anchorPoint": {
+                "$type": "Vector2",
+                "X": 0.5,
+                "Y": 0.5
+              },
+              "widgetResource": {
+                "DepotPath": "base\\gameplay\\gui\\widgets\\subtitles\\subtitles.inkwidget",
+                "Flags": "Soft"
+              }
+            }
+          ],
+          "inputContext": 0,
+          "isAffectedByFadeout": 1,
+          "isPermanent": 0,
+          "rootLibrary": {
+            "DepotPath": "base\\gameplay\\gui\\widgets\\root\\debug_root.inkwidget",
+            "Flags": "Default"
+          },
+          "useGameInput": 1,
+          "useGlobalStyleTheme": 0
+        },
+        "gameNotificationsLayer": {
+          "$type": "inkGameNotificationsLayerDefinition",
+          "activeByDefault": 1,
+          "cursorResource": {
+            "DepotPath": 0,
+            "Flags": "Default"
+          },
+          "enabled": 1,
+          "inputContext": "UINotifications",
+          "isAffectedByFadeout": 1,
+          "isPermanent": 0,
+          "rootLibrary": {
+            "DepotPath": "base\\gameplay\\gui\\fullscreen\\game_notifications\\game_notifications.inkwidget",
+            "Flags": "Default"
+          },
+          "useGameInput": 1,
+          "useGlobalStyleTheme": 1
+        },
+        "hudLayer": {
+          "$type": "inkHUDLayerDefinition",
+          "activeByDefault": 1,
+          "enabled": 0,
+          "entriesResource": {
+            "DepotPath": "base\\gameplay\\gui\\prototype_hud.inkhud",
+            "Flags": "Default"
+          },
+          "inputContext": 0,
+          "isAffectedByFadeout": 1,
+          "isPermanent": 0,
+          "rootLibrary": {
+            "DepotPath": "base\\gameplay\\gui\\widgets\\root\\root.inkwidget",
+            "Flags": "Default"
+          },
+          "useGameInput": 0,
+          "useGlobalStyleTheme": 1
+        },
+        "menuLayer": {
+          "$type": "inkMenuLayerDefinition",
+          "activeByDefault": 1,
+          "cursorResource": {
+            "DepotPath": "base\\gameplay\\gui\\widgets\\cursors\\default_cursor.inkwidget",
+            "Flags": "Default"
+          },
+          "enabled": 1,
+          "inputContext": "UIMenu",
+          "isAffectedByFadeout": 1,
+          "isPermanent": 0,
+          "menuResource": {
+            "DepotPath": "base\\gameplay\\gui\\fullscreen\\main_menu\\pregame_menu.inkmenu",
+            "Flags": "Default"
+          },
+          "rootLibrary": {
+            "DepotPath": "base\\gameplay\\gui\\fullscreen\\main_menu\\pregame_menu.inkwidget",
+            "Flags": "Default"
+          },
+          "useGameInput": 1,
+          "useGlobalStyleTheme": 1
+        },
+        "menuLayerMP": {
+          "$type": "inkMenuLayerDefinition",
+          "activeByDefault": 0,
+          "cursorResource": {
+            "DepotPath": 0,
+            "Flags": "Default"
+          },
+          "enabled": 1,
+          "inputContext": 0,
+          "isAffectedByFadeout": 1,
+          "isPermanent": 0,
+          "menuResource": {
+            "DepotPath": 0,
+            "Flags": "Default"
+          },
+          "rootLibrary": {
+            "DepotPath": 0,
+            "Flags": "Default"
+          },
+          "useGameInput": 1,
+          "useGlobalStyleTheme": 1
+        },
+        "offscreenLayer": {
+          "$type": "inkOffscreenLayerDefinition",
+          "activeByDefault": 1,
+          "enabled": 1,
+          "inputContext": 0,
+          "isAffectedByFadeout": 0,
+          "isPermanent": 0,
+          "rootLibrary": {
+            "DepotPath": "base\\gameplay\\gui\\widgets\\offscreens\\offscreenwidgetscontainer.inkwidget",
+            "Flags": "Default"
+          },
+          "useGameInput": 0,
+          "useGlobalStyleTheme": 0
+        },
+        "photoModeLayer": {
+          "$type": "inkPhotoModeLayerDefinition",
+          "activeByDefault": 0,
+          "cursorResource": {
+            "DepotPath": "base\\gameplay\\gui\\widgets\\cursors\\default_cursor.inkwidget",
+            "Flags": "Default"
+          },
+          "enabled": 1,
+          "inputContext": "PhotoModeUI",
+          "isAffectedByFadeout": 1,
+          "isPermanent": 0,
+          "photoModeResource": {
+            "DepotPath": "base\\gameplay\\gui\\fullscreen\\photo_mode\\photo_mode_camera_options.inkwidget",
+            "Flags": "Default"
+          },
+          "rootLibrary": {
+            "DepotPath": "base\\gameplay\\gui\\widgets\\root\\root.inkwidget",
+            "Flags": "Default"
+          },
+          "stickersResource": {
+            "DepotPath": "base\\gameplay\\gui\\fullscreen\\photo_mode\\photo_mode_stickers.inkwidget",
+            "Flags": "Default"
+          },
+          "useGameInput": 1,
+          "useGlobalStyleTheme": 1
+        },
+        "videoLayer": {
+          "$type": "inkVideoLayerDefinition",
+          "activeByDefault": 1,
+          "enabled": 1,
+          "inputContext": 0,
+          "isAffectedByFadeout": 1,
+          "isPermanent": 0,
+          "rootLibrary": {
+            "DepotPath": "base\\gameplay\\gui\\widgets\\video\\viewport_video.inkwidget",
+            "Flags": "Default"
+          },
+          "useGameInput": 0,
+          "useGlobalStyleTheme": 0
+        }
+      }
+    },
+    "EmbeddedFiles": []
+  }
+}
